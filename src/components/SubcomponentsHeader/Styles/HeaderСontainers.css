@@ -1,0 +1,25 @@
+:root{
+  --position: absolute;
+  --bottom: 5%;
+  --list-style: none;
+  --margin: 10px;
+  --display: flex;
+}
+.MenuContainer {
+    position: var(--position);
+    right: 5%;
+    bottom:var(--bottom);
+    display: var(--display);
+    justify-content: flex-end;
+    list-style: var(--list-style);
+    margin: var(--margin); 
+}
+.ModelListContainer{
+    position: var(--position);
+    left: 10%;
+    bottom: var(--bottom);
+    display: var(--display);
+    justify-content: flex-end;
+    list-style: var(--list-style);
+    margin: var(--margin); 
+}

@@ -1,0 +1,49 @@
+:root{
+    --background-color:  transparent;
+    --background-color-hover: rgb(0, 0, 0);
+
+    --color:  white;
+    --color-hover: white;
+
+    --border-radius: 10px;
+    --border: none;
+
+    --margin-left: 10px;
+    --margin-right: 10px;
+
+    --padding: 8px 16px;
+
+    --cursor: pointer;
+    --text-decoration: none;
+}
+
+.Button {
+    background-color:var(--background-color-hover);
+    color: var(--color);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+    text-decoration: var(--text-decoration);
+    cursor: var(--cursor);   
+}
+.Button:hover {
+    background-color:var(--background-color-hover);
+    color: var(--color-hover);
+}
+.ListButton {
+    background-color: var(--background-color);
+    color: var(--color);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+    text-decoration: var(--text-decoration);
+    cursor: var(--cursor);
+}
+.ListButton:hover {
+    background-color:var(--background-color-hover);
+    color: var(--color-hover);
+}
